@@ -1,0 +1,60 @@
+
+<ion-content padding>
+  <div class="centro">
+  <img src="../../assets/imgs/LOOOOOOOO.png">
+  </div>
+<div style="height:200px;width: 100%;margin-bottom: 20%;">
+
+  <ion-slides  autoplay="3700" loop="true" speed="330" pager="true">
+
+    <ion-slide>
+      <img src="../../assets/imgs/Apresentação1.jpg">
+    </ion-slide>
+
+    <ion-slide>
+      <img src="../../assets/imgs/aterro.jpg">
+    </ion-slide>
+
+    <ion-slide>
+      <img src="../../assets/imgs/caps.jpg">
+    </ion-slide>
+  </ion-slides>
+
+</div>
+
+  <div class="icones" (click)="clinica()">
+    <img src="../../assets/imgs/hearth.png">
+    <h1 style="text-align: center;margin-top: 0px;">Clínicas </h1>
+  </div>
+  
+  
+  <div class="icones" style="margin-left: 4%;" (click)="academia()">
+    <img src="../../assets/imgs/biceps.png">
+    <h1 style="text-align: center;margin-top: 0px;">Academias</h1>
+  </div>
+ 
+</ion-content>
+
+<ion-footer>
+  <ion-navbar>
+    <div class="espaco">
+      <button (click)="inicio()">
+        <ion-icon name="ios-home-outline"></ion-icon>
+      </button>
+    </div>  
+    <div class="espaco">
+      <ion-icon name="ios-person-outline"></ion-icon>
+    </div> 
+    <div class="espaco">
+      <button (click)="info()">
+      <ion-icon name="ios-options-outline"></ion-icon>
+    </button>
+    </div>  
+    <!-- <div class="espaco">
+        <button (click)="socias()">
+          <ion-icon name="logo-rss"></ion-icon>
+        </button>
+    </div>  -->
+    
+  </ion-navbar>
+</ion-footer>

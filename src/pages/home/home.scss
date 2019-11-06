@@ -1,0 +1,28 @@
+page-home {
+    .scroll-content{
+        background: #ADD8E6;
+    }
+    .centro{
+        margin: 0;
+        padding: 0;
+        
+            
+    }
+    .icones{
+        float: left;
+        width: 48%;
+        background-color: skyblue;
+        border-radius: 40px;
+
+        img{
+            display: block;
+            position:relative;
+            left:50%;
+            top:50%;
+            transform: translate(-50%);
+            
+        }
+
+    }
+
+}
